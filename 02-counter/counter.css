@@ -25,3 +25,7 @@ h1{
     margin: 15px 15px 0 15px;
     border-radius: 10px;
 }
+.btns button:hover{
+    background-color: black;
+    color: #fff;
+}
