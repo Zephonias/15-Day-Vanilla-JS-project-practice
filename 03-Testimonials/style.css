@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+.card{
+    width: 600px;
+    height: 430px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    line-height: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 1px black;
+}
+.line{
+    background-color: rgb(57, 134, 230);
+    width: 100px;
+    height: 5px;
+    margin-left: 44%;
+}
+#card-title{
+    font-size: 50px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(57, 134, 230);
+    margin: auto;
+    border-radius: 50%;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    left: -7px;
+    top: 5px;
+}
+#quotation{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: #fff;
+    padding: 15px;
+    background-color: rgb(57, 134, 230);
+    z-index: 2;
+    border-radius: 50%;
+}
+#details{
+    margin-top: 15px;
+}
+#testimony{
+    padding: 10px 20px;
+    line-height: 1.5;
+}
+.icon{
+    color: rgb(57, 134, 230);
+}
+#left-icon, #right-icon{
+    margin: 0 5px;
+    font-size: 15px;
+}
+button{
+    border: none;
+    background:transparent;
+    color: rgb(102, 161, 233);
+}
+button:hover{
+    cursor: pointer
+}
+#generate{
+    padding: 5px;
+    font-size: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid rgb(57, 134, 230);
+    color: rgb(102, 161, 233);
+    background: transparent;
+}
+#generate:hover{
+    color: rgb(13, 117, 244);
+    background-color: rgb(102, 161, 233);
+    transition: 0.4s;
+}
